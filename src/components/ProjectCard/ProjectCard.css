@@ -1,0 +1,34 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+}
+
+.card img {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card-text {
+  padding: 1.5rem 1rem;
+}
+
+.card-subtext {
+  color: var(--text-muted)
+}
+
+.card a {
+  color: inherit;
+  font-family: 'JetBrainsMono', monospace;
+  text-decoration: none;
+  transition: font-weight 0.3s ease;
+}
+
+.card a:hover {
+  font-weight: 700;
+}
+
+.card a:active {
+  color: var(--primary);
+}

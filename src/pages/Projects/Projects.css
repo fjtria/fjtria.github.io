@@ -1,0 +1,43 @@
+#projects {
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (min-width: 1440px) {
+    #projects {
+        padding: 0 20rem;
+    }
+}
+
+#projects h3 {
+    margin: 0;
+    line-height: 1;
+    text-align: center;
+}
+
+#projects div p {
+    margin-bottom: 2rem;
+}
+
+#projects div.column-container {
+    margin: 1rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+@media (min-width: 596px) {
+    #projects div.column-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }    
+}
+
+@media (min-width: 992px) {
+    #projects div.column-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }    
+}
